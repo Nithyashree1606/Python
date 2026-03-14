@@ -1,0 +1,8 @@
+data = input("Enter numbers: ")
+nums = [int(i) for i in data.split()]
+
+s = 0
+for i in nums:
+    s += i
+
+print("Sum:", s)
