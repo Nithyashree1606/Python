@@ -1,0 +1,5 @@
+data = input("Enter numbers: ")
+nums = [int(i) for i in data.split()]
+
+square = [i*i for i in nums]
+print(square)
