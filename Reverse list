@@ -1,0 +1,5 @@
+data = input("Enter numbers: ")
+nums = data.split()
+
+nums.reverse()
+print(nums)
